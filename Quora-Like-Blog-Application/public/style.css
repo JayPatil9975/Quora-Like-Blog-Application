@@ -1,0 +1,161 @@
+/* General Page Styling */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: maroon;
+    font-weight: 500;
+}
+
+
+/* Post Container */
+.post {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Username Styling */
+.user {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0077b5; /* Example color */
+    margin-bottom: 10px;
+}
+
+/* Content Styling */
+.content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Form Container */
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+.form-container h2 {
+    text-align: center;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+/* Username Input */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Content Textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 240px;
+    height: 39;
+    margin: 0px 130px 0px;
+    padding: 12px;
+    background-color: #0077b5; /* Example color */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005f87;
+    transition: background-color 0.3s ease;
+}
+a {
+    display: inline-block; /* Makes styling easier */
+    padding: 10px 20px; /* Adds space inside the link */
+    color: #fff; /* White text color */
+    background-color: #0077b5; /* Button-like background color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for the link */
+    text-align: center; /* Centers text inside the link */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    margin-top: 10px; /* Adds space above the link */
+    display: block; /* Make it a block element for full-width if needed */
+    max-width: 200px; /* Set max width for consistency */
+    margin-left: auto; /* Centers the link horizontally */
+    margin-right: auto; /* Centers the link horizontally */
+}
+
+a:hover {
+    background-color: #005f87; /* Darker shade on hover */
+    color: #e6e6e6; /* Slightly lighter text color on hover */
+}
+
+a:visited {
+    color: #d1d1d1; /* Color for visited links */
+}
+
+a:active {
+    color: #b0b0b0; /* Color for active links */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .form-container {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+.anchor{
+    
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center if needed */
+    
+}
+.post-id {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
