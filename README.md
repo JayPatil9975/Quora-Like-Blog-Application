@@ -24,8 +24,8 @@ This project is a simple web application that mimics some functionalities of a Q
 ### Installation
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/quora-like-blog.git
-    cd quora-like-blog
+    git clone https://github.com/JayPatil9975/Quora-Like-Blog-Application.git
+    cd Quora-Like-Blog-Application
     ```
 
 2. **Install Dependencies**:
